@@ -1,0 +1,90 @@
+2025-11-05 00:01:04.383 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-05 00:01:04.395 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-05 00:01:04.937 [http-nio-8080-exec-6] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-05 00:01:04.939 [http-nio-8080-exec-9] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-05 00:03:54.760 [http-nio-8080-exec-10] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-05 00:03:54.765 [http-nio-8080-exec-4] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-05 00:03:57.734 [http-nio-8080-exec-7] INFO  com.itheima.controller.UploadController-文件上传：iShot_2025-05-27_上午11.59.32.png
+2025-11-05 00:03:58.090 [http-nio-8080-exec-7] INFO  com.itheima.controller.UploadController-文件上传到OSS, url: https://itheima-java-web-ai-bucket.oss-eu-central-1.aliyuncs.com/2025/11/85bf0f48-03d2-460f-8d34-77dc3ab12762.png
+2025-11-05 00:04:06.056 [http-nio-8080-exec-3] INFO  com.itheima.controller.UploadController-文件上传：iShot_2025-05-27_上午11.58.43.png
+2025-11-05 00:04:06.333 [http-nio-8080-exec-3] INFO  com.itheima.controller.UploadController-文件上传到OSS, url: https://itheima-java-web-ai-bucket.oss-eu-central-1.aliyuncs.com/2025/11/3e9e2954-cc64-489a-848c-968a8604f267.png
+2025-11-05 00:06:42.548 [http-nio-8080-exec-8] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-05 00:06:42.557 [http-nio-8080-exec-5] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-05 00:06:46.528 [http-nio-8080-exec-2] INFO  com.itheima.controller.UploadController-文件上传：Scan 1.jpeg
+2025-11-05 00:06:47.038 [http-nio-8080-exec-2] INFO  com.itheima.controller.UploadController-文件上传到OSS, url: https://itheima-java-web-ai-bucket.oss-eu-central-1.aliyuncs.com/2025/11/4cf67ae5-2011-4524-ad67-1ec6e5851f9a.jpeg
+2025-11-05 00:09:47.167 [http-nio-8080-exec-1] INFO  com.itheima.controller.UploadController-文件上传：DSC_0719.JPG
+2025-11-05 00:09:47.994 [http-nio-8080-exec-1] INFO  com.itheima.controller.UploadController-文件上传到OSS, url: https://itheima-java-web-ai-bucket.oss-eu-central-1.aliyuncs.com/2025/11/c8cccf89-6c7d-4013-9334-df86d75888a8.JPG
+2025-11-05 00:09:58.450 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-05 00:09:58.454 [http-nio-8080-exec-6] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-05 00:10:16.970 [http-nio-8080-exec-4] INFO  com.itheima.controller.UploadController-文件上传：DSC_0719.JPG
+2025-11-05 00:10:17.829 [http-nio-8080-exec-4] INFO  com.itheima.controller.UploadController-文件上传到OSS, url: https://itheima-java-web-ai-bucket.oss-eu-central-1.aliyuncs.com/2025/11/39506a4e-3710-4da5-aedb-c889383dea4e.JPG
+2025-11-05 00:11:54.261 [http-nio-8080-exec-10] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-05 00:11:54.263 [http-nio-8080-exec-7] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-05 00:12:52.680 [http-nio-8080-exec-3] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-05 00:12:52.690 [http-nio-8080-exec-5] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-05 00:13:19.031 [http-nio-8080-exec-8] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-05 00:13:19.042 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-05 00:13:21.794 [http-nio-8080-exec-1] INFO  com.itheima.controller.UploadController-文件上传：DSC_0719.JPG
+2025-11-05 00:13:22.618 [http-nio-8080-exec-1] INFO  com.itheima.controller.UploadController-文件上传到OSS, url: https://itheima-java-web-ai-bucket.oss-eu-central-1.aliyuncs.com/2025/11/818be421-889b-4f0b-a3e5-ee052a28ea7d.JPG
+2025-11-05 00:13:29.973 [http-nio-8080-exec-6] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-05 00:13:29.976 [http-nio-8080-exec-9] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-05 00:13:34.240 [http-nio-8080-exec-4] INFO  com.itheima.controller.UploadController-文件上传：DSC_0719.JPG
+2025-11-05 00:13:34.997 [http-nio-8080-exec-4] INFO  com.itheima.controller.UploadController-文件上传到OSS, url: https://itheima-java-web-ai-bucket.oss-eu-central-1.aliyuncs.com/2025/11/a84d1b59-0d5a-4094-b1e9-73a0195587fc.JPG
+2025-11-05 00:14:18.076 [http-nio-8080-exec-7] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-05 00:14:18.085 [http-nio-8080-exec-10] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-05 00:14:21.019 [http-nio-8080-exec-5] INFO  com.itheima.controller.UploadController-文件上传：DSC_0719.JPG
+2025-11-05 00:14:21.828 [http-nio-8080-exec-5] INFO  com.itheima.controller.UploadController-文件上传到OSS, url: https://itheima-java-web-ai-bucket.oss-eu-central-1.aliyuncs.com/2025/11/10470d96-3bc8-4f41-814c-e2e1c2348a57.JPG
+2025-11-05 00:18:39.536 [http-nio-8080-exec-3] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-05 00:18:39.540 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-05 00:19:13.261 [http-nio-8080-exec-8] INFO  com.itheima.controller.UploadController-文件上传：DSC_0719.JPG
+2025-11-05 00:19:14.065 [http-nio-8080-exec-8] INFO  com.itheima.controller.UploadController-文件上传到OSS, url: https://itheima-java-web-ai-bucket.oss-eu-central-1.aliyuncs.com/2025/11/799a4695-d5db-4386-ac4e-2df52b2595ff.JPG
+2025-11-05 00:19:15.391 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-新增员工：Emp(id=null, username=ceshishangchuan, password=null, name=测试上传, gender=1, phone=12312312312, job=1, salary=123123, image=https://itheima-java-web-ai-bucket.oss-eu-central-1.aliyuncs.com/2025/11/799a4695-d5db-4386-ac4e-2df52b2595ff.JPG, entryDate=2025-10-27, deptId=1, createTime=null, updateTime=null, deptName=null, exprList=[EmpExpr(id=null, empId=null, begin=2025-11-14, end=2025-12-16, company=123, job=123)])
+2025-11-05 00:19:15.404 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Creating new transaction with name [com.itheima.service.impl.EmpServiceImpl.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2025-11-05 00:19:15.405 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@1675638915 wrapping com.mysql.cj.jdbc.ConnectionImpl@510c8049] for JDBC transaction
+2025-11-05 00:19:15.406 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@1675638915 wrapping com.mysql.cj.jdbc.ConnectionImpl@510c8049] to manual commit
+2025-11-05 00:19:15.463 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Suspending current transaction, creating new transaction with name [com.itheima.service.impl.EmpLogServiceImpl.insertLog]
+2025-11-05 00:19:15.463 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Acquired Connection [HikariProxyConnection@735747834 wrapping com.mysql.cj.jdbc.ConnectionImpl@47aae91] for JDBC transaction
+2025-11-05 00:19:15.463 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Switching JDBC Connection [HikariProxyConnection@735747834 wrapping com.mysql.cj.jdbc.ConnectionImpl@47aae91] to manual commit
+2025-11-05 00:19:15.466 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-11-05 00:19:15.466 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@735747834 wrapping com.mysql.cj.jdbc.ConnectionImpl@47aae91]
+2025-11-05 00:19:15.468 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@735747834 wrapping com.mysql.cj.jdbc.ConnectionImpl@47aae91] after transaction
+2025-11-05 00:19:15.468 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Resuming suspended transaction after completion of inner transaction
+2025-11-05 00:19:15.469 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Initiating transaction commit
+2025-11-05 00:19:15.469 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Committing JDBC transaction on Connection [HikariProxyConnection@1675638915 wrapping com.mysql.cj.jdbc.ConnectionImpl@510c8049]
+2025-11-05 00:19:15.469 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager-Releasing JDBC Connection [HikariProxyConnection@1675638915 wrapping com.mysql.cj.jdbc.ConnectionImpl@510c8049] after transaction
+2025-11-05 00:19:15.484 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-05 01:27:35.636 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m15s317ms).
+2025-11-05 02:08:59.092 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=40m53s423ms).
+2025-11-05 02:44:09.748 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m40s617ms).
+2025-11-05 03:04:22.148 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m12s407ms).
+2025-11-05 03:06:37.478 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m15s330ms).
+2025-11-05 03:17:06.265 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m58s776ms).
+2025-11-05 03:27:59.024 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m22s754ms).
+2025-11-05 03:51:39.641 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=23m40s616ms).
+2025-11-05 04:28:38.857 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m29s212ms).
+2025-11-05 05:29:39.323 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h30s451ms).
+2025-11-05 06:05:42.761 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m33s428ms).
+2025-11-05 06:14:10.799 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m28s40ms).
+2025-11-05 06:30:14.630 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m3s830ms).
+2025-11-05 06:49:26.645 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m42s6ms).
+2025-11-05 07:31:24.513 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m27s859ms).
+2025-11-05 08:32:11.172 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h46s660ms).
+2025-11-05 09:08:58.640 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=36m17s355ms).
+2025-11-05 09:26:07.926 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m39s272ms).
+2025-11-05 09:33:09.704 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m1s780ms).
+2025-11-05 09:40:34.305 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m54s595ms).
+2025-11-05 09:42:04.442 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m132ms).
+2025-11-05 09:49:56.713 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m52s271ms).
+2025-11-05 09:59:18.845 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m52s126ms).
+2025-11-05 10:08:07.568 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m48s724ms).
+2025-11-05 10:17:48.602 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m11s17ms).
+2025-11-05 10:24:35.478 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m46s878ms).
+2025-11-05 10:34:32.188 [http-nio-8080-exec-6] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-05 10:34:32.221 [http-nio-8080-exec-4] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-05 10:52:19.514 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m24s167ms).
+2025-11-05 10:56:48.340 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46s435ms).
+2025-11-05 11:00:17.120 [HikariPool-1:housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m28s779ms).
+2025-11-05 11:00:39.376 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-05 11:00:39.387 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-11-05 11:00:39.400 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-11-05 11:00:39.404 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.

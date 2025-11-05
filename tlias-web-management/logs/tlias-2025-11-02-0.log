@@ -1,0 +1,9 @@
+2025-11-02 22:11:39.622 [main] DEBUG com.itheima.LogTest-开始计算
+2025-11-02 22:11:39.624 [main] INFO  com.itheima.LogTest-结果101
+2025-11-02 22:11:39.624 [main] DEBUG com.itheima.LogTest-结束计算
+2025-11-02 22:13:03.794 [main] DEBUG com.itheima.LogTest-开始计算
+2025-11-02 22:13:03.796 [main] INFO  com.itheima.LogTest-结果101
+2025-11-02 22:13:03.796 [main] DEBUG com.itheima.LogTest-结束计算
+2025-11-02 22:22:02.247 [main] DEBUG com.itheima.LogTest-开始计算
+2025-11-02 22:22:02.249 [main] INFO  com.itheima.LogTest-结果101
+2025-11-02 22:22:02.250 [main] DEBUG com.itheima.LogTest-结束计算
