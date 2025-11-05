@@ -13,9 +13,12 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.lang.reflect.Array;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.Arrays;
 import java.util.List;
+
 @Service
 public class EmpServiceImpl implements EmpService {
 
@@ -23,12 +26,13 @@ public class EmpServiceImpl implements EmpService {
     private EmpMapper empMapper;
     @Autowired
     private EmpExprMapper empExprMapper;
+
     @Override
     public PageResult<Emp> page(EmpQueryParam empQueryParam) {
         PageHelper.startPage(empQueryParam.getPage(), empQueryParam.getPageSize());
 
         List<Emp> rows = empMapper.list(empQueryParam);
-        Page<Emp> p = (Page<Emp>)rows;
+        Page<Emp> p = (Page<Emp>) rows;
 
         return new PageResult<Emp>(p.getTotal(), p.getResult());
     }
@@ -54,12 +58,45 @@ public class EmpServiceImpl implements EmpService {
                 empExprMapper.insertBatch(exprList);
             }
         } finally {
-            EmpLog empLog = new EmpLog(null, LocalDateTime.now(),"新增员工: " + emp);
+            EmpLog empLog = new EmpLog(null, LocalDateTime.now(), "新增员工: " + emp);
             empLogService.insertLog(empLog);
         }
 
         // 记录操作日志
 
 
+    }
+
+    @Transactional(rollbackFor = {Exception.class})
+    @Override
+    public void delete(List<Integer> ids) {
+        // 删除员工的基本信息
+        empMapper.deleteByIds(ids);
+        // 删除员工的工作经历信息
+        empExprMapper.deleteByEmpIds(ids);
+
+    }
+
+    @Override
+    public Emp getInfo(Integer id) {
+        return empMapper.getById(id);
+
+    }
+    @Transactional(rollbackFor = {Exception.class})
+    @Override
+    public void update(Emp emp) {
+        // 根据id修改基本信息
+        emp.setUpdateTime(LocalDateTime.now());
+        empMapper.updateById(emp);
+        // 根据id修改工作经历信息
+        // 先删除 再添加
+        empExprMapper.deleteByEmpIds(Arrays.asList(emp.getId()));
+        List<EmpExpr> exprList = emp.getExprList();
+        if (!CollectionUtils.isEmpty(exprList)) {
+            exprList.forEach(empExpr -> {
+                empExpr.setEmpId(emp.getId());
+            });
+            empExprMapper.insertBatch(exprList);
+        }
     }
 }

@@ -23,3 +23,8 @@ logging:
   level:
     org.springframework.jdbc.support.JdbcTransactionManager: debug
 
+aliyun:
+  oss:
+    endpoint: https://oss-eu-central-1.aliyuncs.com
+    bucketName: itheima-java-web-ai-bucket
+    region: eu-central-1

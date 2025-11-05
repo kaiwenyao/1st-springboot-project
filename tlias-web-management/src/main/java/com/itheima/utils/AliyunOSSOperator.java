@@ -5,6 +5,8 @@ import com.aliyun.oss.common.auth.CredentialsProviderFactory;
 import com.aliyun.oss.common.auth.EnvironmentVariableCredentialsProvider;
 import com.aliyun.oss.common.comm.SignVersion;
 import com.aliyun.oss.model.PutObjectRequest;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.springframework.web.multipart.MultipartFile;
 import java.io.InputStream;
@@ -19,11 +21,21 @@ import java.util.UUID;
 @Component
 public class AliyunOSSOperator {
 
-    String endpoint = "https://oss-eu-central-1.aliyuncs.com";
-    String bucketName = "itheima-java-web-ai-bucket";
-    String region = "eu-central-1";
+//    @Value("${aliyun.oss.endpoint}")
+//    private String endpoint;
+//    @Value("${aliyun.oss.bucketName}")
+//    private String bucketName;
+//    @Value("${aliyun.oss.region}")
+//    private String region;
+    @Autowired
+    private AliyunOSSProperties aliyunOSSProperties;
 
     public String upload(MultipartFile file) throws Exception {
+
+        String endpoint = aliyunOSSProperties.getEndpoint();
+        String bucketName = aliyunOSSProperties.getBucketName();
+        String region =  aliyunOSSProperties.getRegion();
+
         // 从环境变量中获取访问凭证。运行本代码示例之前，请确保已设置环境变量OSS_ACCESS_KEY_ID和OSS_ACCESS_KEY_SECRET。
         EnvironmentVariableCredentialsProvider credentialsProvider = CredentialsProviderFactory.newEnvironmentVariableCredentialsProvider();
         String originalFilename = file.getOriginalFilename();
