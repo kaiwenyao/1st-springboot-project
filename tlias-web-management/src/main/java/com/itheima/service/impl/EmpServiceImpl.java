@@ -99,4 +99,10 @@ public class EmpServiceImpl implements EmpService {
             empExprMapper.insertBatch(exprList);
         }
     }
+
+    @Override
+    public List<Emp> getAllEmps() {
+        List<Emp> empList = empMapper.getAllEmps();
+        return empList;
+    }
 }

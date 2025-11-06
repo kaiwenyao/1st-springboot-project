@@ -36,11 +36,6 @@ public class EmpController {
         return Result.success();
     }
 
-//    @DeleteMapping
-//    public Result delete(Integer[] ids) {
-//        log.info("删除员工：{}", Arrays.toString(ids));
-//        return Result.success();
-//    }
 
     @DeleteMapping
     public Result delete(@RequestParam List<Integer> ids) {
@@ -61,5 +56,11 @@ public class EmpController {
         log.info("修改员工信息：{}", emp);
         empService.update(emp);
         return Result.success();
+    }
+
+    @GetMapping("/list")
+    public Result list() {
+        List<Emp> empList = empService.getAllEmps();
+        return Result.success(empList);
     }
 }
