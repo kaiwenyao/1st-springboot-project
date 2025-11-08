@@ -5,6 +5,7 @@ import com.itheima.pojo.Dept;
 import com.itheima.service.DeptService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -22,9 +23,16 @@ public class DeptServiceImpl implements DeptService {
     }
 
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public void deleteById(Integer id) {
-        deptMapper.deleteById(id);
+        int rows = deptMapper.deleteIfNoEmployees(id);
+        if (rows == 0) {
+            throw new IllegalStateException("该部门下存在员工，无法删除");
+        }
     }
+/*    public void deleteById(Integer id) {
+        deptMapper.deleteById(id);
+    }*/
 
     @Override
     public void add(Dept dept) {

@@ -9,6 +9,12 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 @Slf4j
 @RestControllerAdvice
 public class GlobalExceptionHandler {
+    @ExceptionHandler(IllegalStateException.class)     // 更具体：先匹配这里
+    public Result handleIllegalState(IllegalStateException e) {
+        log.warn("业务校验失败: {}", e.getMessage());
+        return Result.error(e.getMessage());
+    }
+
     @ExceptionHandler
     public Result handleException(Exception e) {
         log.error("程序出错: ", e);

@@ -26,4 +26,13 @@ public interface DeptMapper {
 
     @Update("update dept set name = #{name}, update_time = #{updateTime} where id = #{id}")
     void update(Dept dept);
+
+    @Delete("""
+            DELETE FROM dept d
+            WHERE d.id = #{id}
+              AND NOT EXISTS (
+                SELECT 1 FROM emp e WHERE e.dept_id = d.id
+              )
+            """)
+    int deleteIfNoEmployees(@Param("id") Integer id);
 }

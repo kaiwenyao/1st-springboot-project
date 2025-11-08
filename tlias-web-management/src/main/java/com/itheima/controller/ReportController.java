@@ -1,5 +1,6 @@
 package com.itheima.controller;
 
+import com.itheima.pojo.ClazzOption;
 import com.itheima.pojo.JobOption;
 import com.itheima.pojo.Result;
 import com.itheima.service.ReportService;
@@ -31,5 +32,17 @@ public class ReportController {
         log.info("统计员工性别人数");
         List<Map<String, Object>> genderList = reportService.getEmpGenderData();
         return Result.success(genderList);
+    }
+    //统计每一个班级的人数
+    @GetMapping("/studentCountData")
+    public Result getStudentCountData(){
+        ClazzOption clazzOption = reportService.getStudentCountData();
+        return Result.success(clazzOption);
+    }
+    // 统计学员的学历信息
+    @GetMapping("/studentDegreeData")
+    public Result getStudentDegreeData(){
+        List<Map<String, Object>> degreeList = reportService.getStudentDegreeData();
+        return Result.success(degreeList);
     }
 }

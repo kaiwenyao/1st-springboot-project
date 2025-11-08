@@ -36,7 +36,6 @@ public class DeptController {
 //        System.out.println("根据ID删除部门：" + id);
         log.info("根据ID删除部门: {}", id);
         return Result.success();
-
     }
 
     @PostMapping
