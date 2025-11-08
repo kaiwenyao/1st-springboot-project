@@ -18,4 +18,6 @@ public interface ClazzMapper {
     Clazz getInfoById(Integer id);
 
     void update(Clazz clazz);
+
+    List<Clazz> getAllClazzs();
 }

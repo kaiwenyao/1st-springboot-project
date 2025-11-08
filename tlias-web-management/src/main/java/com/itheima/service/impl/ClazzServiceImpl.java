@@ -66,4 +66,10 @@ public class ClazzServiceImpl implements ClazzService {
         clazzMapper.update(clazz);
 
     }
+
+    @Override
+    public List<Clazz> getAllClazzs() {
+        List<Clazz> clazzList = clazzMapper.getAllClazzs();
+        return clazzList;
+    }
 }

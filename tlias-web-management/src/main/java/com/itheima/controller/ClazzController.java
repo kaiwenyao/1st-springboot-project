@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @RestController
 @RequestMapping("/clazzs")
@@ -47,5 +48,11 @@ public class ClazzController {
         return Result.success();
     }
 
+    // 该接口用于查询所有班级信息
+    @GetMapping("/list")
+    public Result getAllClazzs() {
+        List<Clazz> clazzList = clazzService.getAllClazzs();
+        return Result.success(clazzList);
+    }
 
 }

@@ -24,7 +24,6 @@ public class DeptController {
 //    @RequestMapping(value = "/depts", method = RequestMethod.GET)
     @GetMapping
     public Result list() {
-
 //        System.out.println("查询全部部门数据");
         List<Dept> deptList = deptService.findAll();
         log.info("查询全部部门数据");
