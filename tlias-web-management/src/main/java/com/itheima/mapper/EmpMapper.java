@@ -44,4 +44,6 @@ public interface EmpMapper {
     List<Map<String, Object>> countEmpGenderData();
 
     List<Emp> getAllEmps();
+
+    Emp selectByUsernameAndPassword(Emp emp);
 }

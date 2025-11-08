@@ -7,6 +7,8 @@ import com.itheima.mapper.EmpMapper;
 import com.itheima.pojo.*;
 import com.itheima.service.EmpLogService;
 import com.itheima.service.EmpService;
+import com.itheima.utils.JwtUtils;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -17,8 +19,11 @@ import java.lang.reflect.Array;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
+@Slf4j
 @Service
 public class EmpServiceImpl implements EmpService {
 
@@ -104,5 +109,21 @@ public class EmpServiceImpl implements EmpService {
     public List<Emp> getAllEmps() {
         List<Emp> empList = empMapper.getAllEmps();
         return empList;
+    }
+
+    @Override
+    public LoginInfo login(Emp emp) {
+        // 调用mapper
+        Emp e = empMapper.selectByUsernameAndPassword(emp);
+        if (e != null) {
+            log.info("登陆成功:{}", e);
+            // 生成jwt令牌
+            Map<String, Object> claims = new HashMap<>();
+            claims.put("id", e.getId());
+            claims.put("username", e.getUsername());
+            String jwt = JwtUtils.generateToken(claims);
+            return new LoginInfo(e.getId(), e.getUsername(), e.getName(), jwt);
+        }
+        return null;
     }
 }

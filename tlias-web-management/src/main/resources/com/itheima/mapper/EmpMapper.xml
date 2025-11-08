@@ -92,4 +92,8 @@
         select id, username, password, name, gender, phone, job, salary, image, entry_date, dept_id, create_time, update_time
         from emp
     </select>
+    <select id="selectByUsernameAndPassword" resultType="com.itheima.pojo.Emp">
+        select id, username, name from emp
+        where username = #{username} and password = #{password}
+    </select>
 </mapper>
