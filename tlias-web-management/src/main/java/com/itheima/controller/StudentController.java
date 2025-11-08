@@ -28,4 +28,28 @@ public class StudentController {
         studentService.save(student);
         return Result.success();
     }
+    //该接口用于根据主键ID查询学员的信息
+    @GetMapping("/{id}")
+    public Result getInfoById(@PathVariable Integer id){
+        Student student = studentService.getInfoById(id);
+        return Result.success(student);
+    }
+
+    // 该接口用于修改学员的数据信息
+    @PutMapping
+    public Result update(@RequestBody Student student){
+        studentService.update(student);
+        return Result.success();
+    }
+    // 该接口用于批量删除学员信息
+    @DeleteMapping("/{ids}")
+    public Result delete(@PathVariable List<Integer> ids){
+        studentService.deleteByIds(ids);
+        return Result.success();
+    }
+    @PutMapping("/violation/{id}/{score}")
+    public Result violation(@PathVariable Integer id, @PathVariable Integer score){
+        studentService.vioById(id, score);
+        return Result.success();
+    }
 }

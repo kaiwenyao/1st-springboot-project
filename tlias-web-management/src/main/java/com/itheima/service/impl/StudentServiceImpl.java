@@ -7,6 +7,7 @@ import com.itheima.pojo.PageResult;
 import com.itheima.pojo.Student;
 import com.itheima.pojo.StudentQueryParam;
 import com.itheima.service.StudentService;
+import io.micrometer.core.instrument.config.MeterFilter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cglib.core.Local;
 import org.springframework.stereotype.Service;
@@ -33,5 +34,28 @@ public class StudentServiceImpl implements StudentService {
         student.setUpdateTime(LocalDateTime.now());
         studentMapper.insert(student);
 
+    }
+
+    @Override
+    public Student getInfoById(Integer id) {
+        Student student = studentMapper.getInfoById(id);
+        return student;
+    }
+
+    @Override
+    public void update(Student student) {
+        student.setUpdateTime(LocalDateTime.now());
+        studentMapper.update(student);
+    }
+
+    @Override
+    public void deleteByIds(List<Integer> ids) {
+        studentMapper.deleteByIds(ids);
+
+    }
+
+    @Override
+    public void vioById(Integer id, Integer score) {
+        studentMapper.vioById(id, score);
     }
 }

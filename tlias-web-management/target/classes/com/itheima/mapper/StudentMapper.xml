@@ -7,6 +7,38 @@
         insert into student(name, no, gender, phone, id_card, is_college, address, degree, graduation_date, clazz_id, create_time, update_time)
         values (#{name}, #{no}, #{gender}, #{phone}, #{idCard}, #{isCollege}, #{address}, #{degree}, #{graduationDate}, #{clazzId}, #{createTime}, #{updateTime})
     </insert>
+    <update id="update">
+        update student
+        set
+        name = #{name},
+        no = #{no},
+        gender = #{gender},
+        phone = #{phone},
+        degree = #{degree},
+        id_card = #{idCard},
+        is_college = #{isCollege},
+        address = #{address},
+        graduation_date = #{graduationDate},
+        violation_count = #{violationCount},
+        violation_score = #{violationScore},
+        clazz_id = #{clazzId},
+        update_time = #{updateTime}
+        where id = #{id}
+    </update>
+    <update id="vioById">
+        update student
+        set
+        violation_count = violation_count + 1,
+        violation_score = violation_score + #{score}
+        where id = #{id}
+    </update>
+    <delete id="deleteByIds">
+        delete from student
+        where id in
+        <foreach collection="ids" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+    </delete>
 
     <select id="list" resultType="com.itheima.pojo.Student">
         select student.id, student.name, no, gender, phone, id_card, is_college, address, degree, graduation_date, clazz_id, violation_count, violation_score, student.create_time, student.update_time, clazz.name clazzName
@@ -24,5 +56,10 @@
                 clazz_id = #{clazzId}
             </if>
         </where>
+    </select>
+    <select id="getInfoById" resultType="com.itheima.pojo.Student">
+        select id, name, no, gender, phone, degree, id_card, is_college, address, graduation_date, violation_count, violation_score, clazz_id, create_time, update_time
+        from student
+        where id = #{id}
     </select>
 </mapper>
