@@ -27,6 +27,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-aop-quickstart" options="-parameters" />
+      <module name="tlias-pojo" options="-parameters" />
+      <module name="tlias-utils" options="-parameters" />
       <module name="tlias-web-management" options="-parameters" />
     </option>
   </component>

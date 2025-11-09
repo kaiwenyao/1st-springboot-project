@@ -23,3 +23,28 @@
 2025-11-09 16:53:01.030 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
 2025-11-09 16:53:01.036 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
 2025-11-09 16:53:01.042 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
+2025-11-09 17:04:34.407 [main] INFO  com.itheima.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.17 with PID 15091 (/Users/ykw/Documents/WebApp/IdeaProj/web-ai-proj02/tlias-web-management/target/classes started by ykw in /Users/ykw/Documents/WebApp/IdeaProj/web-ai-proj02)
+2025-11-09 17:04:34.409 [main] INFO  com.itheima.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-11-09 17:04:35.181 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-11-09 17:04:35.187 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-09 17:04:35.188 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-11-09 17:04:35.188 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-09 17:04:35.216 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-11-09 17:04:35.216 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 784 ms
+2025-11-09 17:04:35.831 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-11-09 17:04:35.861 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-11-09 17:04:35.873 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-11-09 17:04:35.882 [main] INFO  com.itheima.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.667 seconds (process running for 2.469)
+2025-11-09 17:04:36.412 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-11-09 17:04:36.415 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-09 17:04:36.415 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-11-09 17:04:36.416 [RMI TCP Connection(1)-127.0.0.1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 0 ms
+2025-11-09 17:04:36.912 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6fcb9ea2
+2025-11-09 17:04:36.914 [RMI TCP Connection(2)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-11-09 17:04:40.369 [http-nio-8080-exec-1] INFO  com.itheima.controller.LoginController-登陆：Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-09 17:04:40.439 [http-nio-8080-exec-1] INFO  com.itheima.service.impl.EmpServiceImpl-登陆成功:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-09 17:04:45.614 [http-nio-8080-exec-3] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-09 17:06:39.158 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-09 17:06:39.166 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-11-09 17:06:39.171 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-11-09 17:06:39.180 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
