@@ -22,22 +22,34 @@ public class DeptController {
     @Autowired
     private DeptService deptService;
 
-//    @RequestMapping(value = "/depts", method = RequestMethod.GET)
+    /**
+     * 查询所有部门信息
+     *
+     * @return Result 包含部门列表的统一响应结果
+     */
     @GetMapping
     public Result list() {
-//        System.out.println("查询全部部门数据");
+        // 查询全部部门数据
         List<Dept> deptList = deptService.findAll();
         log.info("查询全部部门数据");
         return Result.success(deptList);
     }
+
+        /**
+     * 根据ID删除部门信息
+     * @param id 部门ID
+     * @return 操作结果
+     */
     @Log
     @DeleteMapping
     public Result delete(Integer id) {
+        // 执行删除操作
         deptService.deleteById(id);
-//        System.out.println("根据ID删除部门：" + id);
+        // 记录删除日志
         log.info("根据ID删除部门: {}", id);
         return Result.success();
     }
+
     @Log
     @PostMapping
     public Result add(@RequestBody Dept dept) {
