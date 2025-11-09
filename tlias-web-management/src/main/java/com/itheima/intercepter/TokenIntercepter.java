@@ -1,6 +1,8 @@
 package com.itheima.intercepter;
 
+import com.itheima.utils.CurrentHolder;
 import com.itheima.utils.JwtUtils;
+import io.jsonwebtoken.Claims;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.extern.slf4j.Slf4j;
@@ -31,7 +33,10 @@ public class TokenIntercepter implements HandlerInterceptor {
         }
         // 如果存在则校验
         try {
-            JwtUtils.parseToken(token);
+            Claims claims = JwtUtils.parseToken(token);
+            Integer empId = Integer.valueOf(claims.get("id").toString());
+            CurrentHolder.setCurrentId(empId);
+            log.info("当前登录员工id：{} 已经存储到localthread", empId);
         } catch (Exception e) {
             log.info("令牌非法");
             response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
@@ -39,5 +44,11 @@ public class TokenIntercepter implements HandlerInterceptor {
         }
         // 合法 放行！
         return true;
+
+    }
+
+    @Override
+    public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
+        CurrentHolder.remove();
     }
 }
