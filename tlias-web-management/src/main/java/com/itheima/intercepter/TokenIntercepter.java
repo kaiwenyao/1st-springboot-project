@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 
 @Slf4j
-@Component
+//@Component
 public class TokenIntercepter implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
@@ -18,11 +18,12 @@ public class TokenIntercepter implements HandlerInterceptor {
         // 获取请求路径
         String requestUri = request.getRequestURI();
 
-/*        // 判断路径 放行与否
+        // 判断路径 放行与否
         if (requestUri.contains("/login")) {
             log.info("请求登陆，放行！");
             return true;
-        }*/
+        }
+
         // 获取请求头中的token
         String token = request.getHeader("token");
         // 判断是否存在

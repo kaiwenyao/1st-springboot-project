@@ -39,10 +39,10 @@
                 e.name like concat('%', #{name}, '%')
             </if>
             <if test="gender != null">
-                e.gender = #{gender}
+                and e.gender = #{gender}
             </if>
             <if test="begin != null and end != null">
-                e.entry_date between #{begin} and #{end}
+                and e.entry_date between #{begin} and #{end}
             </if>
         </where>
         order by e.update_time desc

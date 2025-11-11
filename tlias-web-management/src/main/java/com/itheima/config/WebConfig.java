@@ -9,7 +9,7 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class WebConfig implements WebMvcConfigurer {
-    @Autowired
+/*    @Autowired
     private DemoIntercepter demoIntercepter;
     @Autowired
     private TokenIntercepter tokenIntercepter;
@@ -18,6 +18,6 @@ public class WebConfig implements WebMvcConfigurer {
         registry.addInterceptor(tokenIntercepter).addPathPatterns("/**").excludePathPatterns(
                 "/login");
 
-    }
+    }*/
 
 }
