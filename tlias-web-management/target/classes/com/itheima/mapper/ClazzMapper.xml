@@ -30,7 +30,7 @@
                 clazz.name like concat('%', #{name}, '%')
             </if>
             <if test="begin != null and end != null">
-                clazz.end_date between #{begin} and #{end}
+                and clazz.end_date between #{begin} and #{end}
             </if>
         </where>
     </select>

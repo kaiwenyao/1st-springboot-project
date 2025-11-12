@@ -50,10 +50,10 @@
                 student.name like concat ('%', #{name}, '%')
             </if>
             <if test="degree != null and degree != ''">
-                degree = #{degree}
+                and degree = #{degree}
             </if>
             <if test="clazzId != null and clazzId != ''">
-                clazz_id = #{clazzId}
+                and clazz_id = #{clazzId}
             </if>
         </where>
     </select>
