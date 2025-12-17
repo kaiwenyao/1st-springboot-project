@@ -1,0 +1,259 @@
+2025-11-12 20:59:12.256 [main] INFO  com.itheima.TliasWebManagementApplication-Starting TliasWebManagementApplication using Java 17.0.17 with PID 70813 (/Users/ykw/Documents/WebApp/IdeaProj/1st-springboot-project/tlias-web-management/target/classes started by ykw in /Users/ykw/Documents/WebApp/IdeaProj/1st-springboot-project)
+2025-11-12 20:59:12.257 [main] INFO  com.itheima.TliasWebManagementApplication-No active profile set, falling back to 1 default profile: "default"
+2025-11-12 20:59:13.144 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat initialized with port 8080 (http)
+2025-11-12 20:59:13.151 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-12 20:59:13.151 [main] INFO  org.apache.catalina.core.StandardService-Starting service [Tomcat]
+2025-11-12 20:59:13.152 [main] INFO  org.apache.catalina.core.StandardEngine-Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-12 20:59:13.174 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring embedded WebApplicationContext
+2025-11-12 20:59:13.174 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext-Root WebApplicationContext: initialization completed in 896 ms
+2025-11-12 20:59:13.732 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver-Exposing 1 endpoint beneath base path '/actuator'
+2025-11-12 20:59:13.769 [main] INFO  org.apache.coyote.http11.Http11NioProtocol-Starting ProtocolHandler ["http-nio-8080"]
+2025-11-12 20:59:13.780 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer-Tomcat started on port 8080 (http) with context path '/'
+2025-11-12 20:59:13.791 [main] INFO  com.itheima.TliasWebManagementApplication-Started TliasWebManagementApplication in 1.718 seconds (process running for 2.715)
+2025-11-12 20:59:14.009 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-12 20:59:14.009 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Initializing Servlet 'dispatcherServlet'
+2025-11-12 20:59:14.010 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet-Completed initialization in 1 ms
+2025-11-12 20:59:14.065 [http-nio-8080-exec-1] INFO  com.itheima.controller.LoginController-登陆：Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-12 20:59:14.077 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Starting...
+2025-11-12 20:59:14.337 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.pool.HikariPool-HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ef3ea25
+2025-11-12 20:59:14.339 [http-nio-8080-exec-1] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Start completed.
+2025-11-12 20:59:14.409 [http-nio-8080-exec-1] INFO  com.itheima.service.impl.EmpServiceImpl-登陆成功:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-12 20:59:19.621 [http-nio-8080-exec-3] INFO  com.itheima.controller.LoginController-登陆：Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-12 20:59:19.636 [http-nio-8080-exec-3] INFO  com.itheima.service.impl.EmpServiceImpl-登陆成功:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-12 20:59:29.059 [http-nio-8080-exec-4] INFO  com.itheima.controller.LoginController-登陆：Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-12 20:59:29.079 [http-nio-8080-exec-4] INFO  com.itheima.service.impl.EmpServiceImpl-登陆成功:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-12 20:59:31.115 [http-nio-8080-exec-6] INFO  com.itheima.intercepter.TokenIntercepter-token不存在 响应401
+2025-11-12 21:00:17.137 [http-nio-8080-exec-7] INFO  com.itheima.intercepter.TokenIntercepter-token不存在 响应401
+2025-11-12 21:00:51.687 [http-nio-8080-exec-8] INFO  com.itheima.controller.LoginController-登陆：Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-12 21:00:51.704 [http-nio-8080-exec-8] INFO  com.itheima.service.impl.EmpServiceImpl-登陆成功:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-12 21:02:01.391 [http-nio-8080-exec-9] INFO  com.itheima.controller.LoginController-登陆：Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-12 21:02:01.409 [http-nio-8080-exec-9] INFO  com.itheima.service.impl.EmpServiceImpl-登陆成功:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-12 21:02:12.936 [http-nio-8080-exec-10] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:02:12.976 [http-nio-8080-exec-10] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:02:13.545 [http-nio-8080-exec-2] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:02:13.545 [http-nio-8080-exec-1] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:02:13.562 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:02:13.581 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:02:35.633 [http-nio-8080-exec-4] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:02:35.633 [http-nio-8080-exec-3] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:02:35.637 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:02:35.645 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:02:36.414 [http-nio-8080-exec-5] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:02:36.414 [http-nio-8080-exec-6] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:02:36.416 [http-nio-8080-exec-5] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:02:36.422 [http-nio-8080-exec-6] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:02:42.527 [http-nio-8080-exec-8] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:02:42.527 [http-nio-8080-exec-7] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:02:42.529 [http-nio-8080-exec-8] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:02:42.539 [http-nio-8080-exec-7] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:05:43.989 [http-nio-8080-exec-9] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:05:43.989 [http-nio-8080-exec-10] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:05:43.996 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:05:44.005 [http-nio-8080-exec-10] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:05:52.471 [http-nio-8080-exec-1] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:05:52.472 [http-nio-8080-exec-2] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:05:52.483 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:05:52.500 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:05:53.370 [http-nio-8080-exec-3] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:05:53.370 [http-nio-8080-exec-4] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:05:53.373 [http-nio-8080-exec-3] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:05:53.380 [http-nio-8080-exec-4] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:05:57.311 [http-nio-8080-exec-6] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:05:57.311 [http-nio-8080-exec-5] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:05:57.316 [http-nio-8080-exec-5] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:05:57.327 [http-nio-8080-exec-6] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:05:59.888 [http-nio-8080-exec-7] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:05:59.888 [http-nio-8080-exec-8] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:05:59.894 [http-nio-8080-exec-7] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:05:59.912 [http-nio-8080-exec-8] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:06:08.305 [http-nio-8080-exec-9] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:06:08.305 [http-nio-8080-exec-10] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:06:08.312 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:06:08.323 [http-nio-8080-exec-10] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:06:13.102 [http-nio-8080-exec-1] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:06:13.102 [http-nio-8080-exec-2] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:06:13.107 [http-nio-8080-exec-2] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:06:13.122 [http-nio-8080-exec-1] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:06:17.441 [http-nio-8080-exec-3] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:06:17.441 [http-nio-8080-exec-4] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:06:17.448 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:06:17.461 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:06:22.394 [http-nio-8080-exec-6] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:06:22.394 [http-nio-8080-exec-5] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:06:22.398 [http-nio-8080-exec-6] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:06:22.407 [http-nio-8080-exec-5] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:06:27.984 [http-nio-8080-exec-7] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:06:27.984 [http-nio-8080-exec-8] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:06:27.995 [http-nio-8080-exec-7] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:06:28.008 [http-nio-8080-exec-8] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:06:35.766 [http-nio-8080-exec-9] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:06:35.766 [http-nio-8080-exec-10] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:06:35.778 [http-nio-8080-exec-10] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:06:35.786 [http-nio-8080-exec-9] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:06:41.847 [http-nio-8080-exec-1] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:06:41.847 [http-nio-8080-exec-2] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:06:41.867 [http-nio-8080-exec-1] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:06:41.868 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:06:51.399 [http-nio-8080-exec-3] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:06:51.399 [http-nio-8080-exec-4] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:06:51.406 [http-nio-8080-exec-3] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:06:51.416 [http-nio-8080-exec-4] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:06:52.412 [http-nio-8080-exec-5] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:06:52.412 [http-nio-8080-exec-6] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:06:52.413 [http-nio-8080-exec-6] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:06:52.417 [http-nio-8080-exec-5] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:06:57.928 [http-nio-8080-exec-8] INFO  com.itheima.intercepter.TokenIntercepter-token不存在 响应401
+2025-11-12 21:07:05.651 [http-nio-8080-exec-9] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:07:05.651 [http-nio-8080-exec-7] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:07:05.658 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:07:05.666 [http-nio-8080-exec-7] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:07:09.617 [http-nio-8080-exec-10] INFO  com.itheima.intercepter.TokenIntercepter-token不存在 响应401
+2025-11-12 21:07:22.477 [http-nio-8080-exec-2] INFO  com.itheima.controller.LoginController-登陆：Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-12 21:07:22.495 [http-nio-8080-exec-2] INFO  com.itheima.service.impl.EmpServiceImpl-登陆成功:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-12 21:07:25.609 [http-nio-8080-exec-1] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:07:25.614 [http-nio-8080-exec-1] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:07:26.053 [http-nio-8080-exec-3] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:07:26.053 [http-nio-8080-exec-4] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:07:26.055 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:07:26.056 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:07:26.963 [http-nio-8080-exec-5] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:07:26.965 [http-nio-8080-exec-5] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:07:29.758 [http-nio-8080-exec-6] INFO  com.itheima.intercepter.TokenIntercepter-token不存在 响应401
+2025-11-12 21:07:50.568 [http-nio-8080-exec-7] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:07:50.567 [http-nio-8080-exec-8] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:07:50.576 [http-nio-8080-exec-8] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:07:50.590 [http-nio-8080-exec-7] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:07:55.768 [http-nio-8080-exec-9] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:07:55.773 [http-nio-8080-exec-9] INFO  com.itheima.controller.UploadController-文件上传：DSC_0194.jpg
+2025-11-12 21:07:56.356 [http-nio-8080-exec-9] INFO  com.itheima.controller.UploadController-文件上传到OSS, url: https://itheima-java-web-ai-bucket.oss-eu-central-1.aliyuncs.com/2025/11/1f40e899-c230-4210-95ca-2530fb37f060.jpg
+2025-11-12 21:08:08.332 [http-nio-8080-exec-10] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:08:08.332 [http-nio-8080-exec-2] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:08:08.337 [http-nio-8080-exec-10] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:08:08.344 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:08:17.308 [http-nio-8080-exec-1] INFO  com.itheima.controller.LoginController-登陆：Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-12 21:08:17.312 [http-nio-8080-exec-1] INFO  com.itheima.service.impl.EmpServiceImpl-登陆成功:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-12 21:08:19.473 [http-nio-8080-exec-3] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:08:19.483 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:08:19.976 [http-nio-8080-exec-4] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:08:19.976 [http-nio-8080-exec-5] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:08:19.985 [http-nio-8080-exec-5] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:08:19.987 [http-nio-8080-exec-4] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:08:23.229 [http-nio-8080-exec-6] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:08:23.230 [http-nio-8080-exec-6] INFO  com.itheima.controller.UploadController-文件上传：DSC_0208.jpg
+2025-11-12 21:08:23.556 [http-nio-8080-exec-6] INFO  com.itheima.controller.UploadController-文件上传到OSS, url: https://itheima-java-web-ai-bucket.oss-eu-central-1.aliyuncs.com/2025/11/c0476814-56ac-4124-b271-9ed840220962.jpg
+2025-11-12 21:09:19.103 [http-nio-8080-exec-7] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:09:19.103 [http-nio-8080-exec-8] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:09:19.107 [http-nio-8080-exec-8] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:09:19.133 [http-nio-8080-exec-7] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:14:24.134 [http-nio-8080-exec-9] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:14:24.134 [http-nio-8080-exec-2] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:14:24.147 [http-nio-8080-exec-2] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:14:24.155 [http-nio-8080-exec-9] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:14:31.305 [http-nio-8080-exec-10] INFO  com.itheima.intercepter.TokenIntercepter-token不存在 响应401
+2025-11-12 21:14:31.305 [http-nio-8080-exec-1] INFO  com.itheima.intercepter.TokenIntercepter-token不存在 响应401
+2025-11-12 21:14:42.253 [http-nio-8080-exec-3] INFO  com.itheima.intercepter.TokenIntercepter-token不存在 响应401
+2025-11-12 21:14:42.253 [http-nio-8080-exec-4] INFO  com.itheima.intercepter.TokenIntercepter-token不存在 响应401
+2025-11-12 21:15:10.612 [http-nio-8080-exec-5] INFO  com.itheima.intercepter.TokenIntercepter-token不存在 响应401
+2025-11-12 21:15:10.612 [http-nio-8080-exec-6] INFO  com.itheima.intercepter.TokenIntercepter-token不存在 响应401
+2025-11-12 21:15:21.915 [http-nio-8080-exec-7] INFO  com.itheima.intercepter.TokenIntercepter-token不存在 响应401
+2025-11-12 21:15:21.915 [http-nio-8080-exec-8] INFO  com.itheima.intercepter.TokenIntercepter-token不存在 响应401
+2025-11-12 21:15:26.047 [http-nio-8080-exec-9] INFO  com.itheima.intercepter.TokenIntercepter-token不存在 响应401
+2025-11-12 21:15:45.707 [http-nio-8080-exec-2] INFO  com.itheima.controller.LoginController-登陆：Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-12 21:15:45.722 [http-nio-8080-exec-2] INFO  com.itheima.service.impl.EmpServiceImpl-登陆成功:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-12 21:15:49.163 [http-nio-8080-exec-1] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:15:49.170 [http-nio-8080-exec-1] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:15:49.577 [http-nio-8080-exec-10] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:15:49.577 [http-nio-8080-exec-4] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:15:49.580 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:15:49.583 [http-nio-8080-exec-10] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:15:49.999 [http-nio-8080-exec-3] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:15:50.002 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:15:50.309 [http-nio-8080-exec-6] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:15:50.310 [http-nio-8080-exec-5] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:15:50.310 [http-nio-8080-exec-6] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:15:50.315 [http-nio-8080-exec-5] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:15:55.204 [http-nio-8080-exec-7] INFO  com.itheima.intercepter.TokenIntercepter-token不存在 响应401
+2025-11-12 21:16:55.607 [http-nio-8080-exec-8] INFO  com.itheima.intercepter.TokenIntercepter-token不存在 响应401
+2025-11-12 21:16:55.607 [http-nio-8080-exec-9] INFO  com.itheima.intercepter.TokenIntercepter-token不存在 响应401
+2025-11-12 21:17:03.797 [http-nio-8080-exec-2] INFO  com.itheima.controller.LoginController-登陆：Emp(id=null, username=songjiang, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-12 21:17:03.809 [http-nio-8080-exec-2] INFO  com.itheima.service.impl.EmpServiceImpl-登陆成功:Emp(id=2, username=songjiang, password=null, name=宋江, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-12 21:17:05.799 [http-nio-8080-exec-1] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:17:05.806 [http-nio-8080-exec-1] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:17:07.421 [http-nio-8080-exec-10] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:17:07.425 [http-nio-8080-exec-10] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:17:07.714 [http-nio-8080-exec-3] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:17:07.715 [http-nio-8080-exec-4] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:17:07.716 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:17:07.717 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:17:17.637 [http-nio-8080-exec-5] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:17:17.637 [http-nio-8080-exec-6] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:17:17.643 [http-nio-8080-exec-5] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:17:17.649 [http-nio-8080-exec-6] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:18:06.667 [http-nio-8080-exec-7] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:18:06.667 [http-nio-8080-exec-8] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:18:06.672 [http-nio-8080-exec-7] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:18:06.684 [http-nio-8080-exec-8] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:18:18.974 [http-nio-8080-exec-9] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:18:18.974 [http-nio-8080-exec-2] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:18:18.979 [http-nio-8080-exec-2] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:18:18.988 [http-nio-8080-exec-9] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:18:20.822 [http-nio-8080-exec-10] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:18:20.822 [http-nio-8080-exec-1] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:18:20.823 [http-nio-8080-exec-10] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:18:20.826 [http-nio-8080-exec-1] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:18:25.163 [http-nio-8080-exec-3] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:18:25.163 [http-nio-8080-exec-4] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:18:25.168 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:18:25.175 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:18:34.818 [http-nio-8080-exec-5] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:18:34.818 [http-nio-8080-exec-6] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:18:34.827 [http-nio-8080-exec-6] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:18:34.835 [http-nio-8080-exec-5] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:18:41.517 [http-nio-8080-exec-7] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:18:41.517 [http-nio-8080-exec-8] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:18:41.524 [http-nio-8080-exec-8] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:18:41.542 [http-nio-8080-exec-7] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:18:42.533 [http-nio-8080-exec-2] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:18:42.533 [http-nio-8080-exec-9] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:18:42.534 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:18:42.539 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:18:49.558 [http-nio-8080-exec-10] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:18:49.558 [http-nio-8080-exec-1] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:18:49.570 [http-nio-8080-exec-10] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:18:49.578 [http-nio-8080-exec-1] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:18:57.387 [http-nio-8080-exec-4] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:18:57.387 [http-nio-8080-exec-3] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:18:57.397 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:18:57.408 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:19:06.277 [http-nio-8080-exec-6] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:19:06.277 [http-nio-8080-exec-5] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:19:06.283 [http-nio-8080-exec-5] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:19:06.296 [http-nio-8080-exec-6] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:19:15.732 [http-nio-8080-exec-8] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:19:15.732 [http-nio-8080-exec-7] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:19:15.738 [http-nio-8080-exec-8] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:19:15.746 [http-nio-8080-exec-7] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:19:20.181 [http-nio-8080-exec-2] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:19:20.181 [http-nio-8080-exec-9] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:19:20.189 [http-nio-8080-exec-9] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:19:20.204 [http-nio-8080-exec-2] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:19:30.059 [http-nio-8080-exec-10] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:19:30.059 [http-nio-8080-exec-1] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:19:30.063 [http-nio-8080-exec-10] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:19:30.071 [http-nio-8080-exec-1] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:19:30.696 [http-nio-8080-exec-4] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:19:30.696 [http-nio-8080-exec-3] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:19:30.697 [http-nio-8080-exec-4] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:19:30.699 [http-nio-8080-exec-3] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:19:31.588 [http-nio-8080-exec-5] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:19:31.588 [http-nio-8080-exec-6] INFO  com.itheima.intercepter.TokenIntercepter-当前登录员工id：2 已经存储到localthread
+2025-11-12 21:19:31.589 [http-nio-8080-exec-6] INFO  com.itheima.controller.EmpController-分页查询:EmpQueryParam(page=1, pageSize=10, name=, gender=null, begin=null, end=null) 
+2025-11-12 21:19:31.596 [http-nio-8080-exec-5] INFO  com.itheima.controller.DeptController-查询全部部门数据
+2025-11-12 21:19:41.570 [http-nio-8080-exec-7] INFO  com.itheima.controller.LoginController-登陆：Emp(id=null, username=linchong, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-12 21:19:41.580 [http-nio-8080-exec-7] INFO  com.itheima.service.impl.EmpServiceImpl-登陆成功:Emp(id=10, username=linchong, password=null, name=林冲, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-12 21:24:45.732 [http-nio-8080-exec-8] INFO  com.itheima.controller.LoginController-登陆：Emp(id=null, username=linchong, password=123456, name=null, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-12 21:24:45.750 [http-nio-8080-exec-8] INFO  com.itheima.service.impl.EmpServiceImpl-登陆成功:Emp(id=10, username=linchong, password=null, name=林冲, gender=null, phone=null, job=null, salary=null, image=null, entryDate=null, deptId=null, createTime=null, updateTime=null, deptName=null, exprList=null)
+2025-11-12 23:58:05.304 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-12 23:58:05.315 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown-Graceful shutdown complete
+2025-11-12 23:58:05.350 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown initiated...
+2025-11-12 23:58:05.365 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource-HikariPool-1 - Shutdown completed.
